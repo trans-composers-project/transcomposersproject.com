@@ -1,0 +1,24 @@
+import markdownIt from "markdown-it";
+
+export default async function (eleventyConfig) {
+	eleventyConfig.addPassthroughCopy("documents");
+	eleventyConfig.addPassthroughCopy("media");
+	eleventyConfig.addPassthroughCopy("styles");
+
+	// plugins: markdown-it
+	let options = {
+		html: true,
+		breaks: true,
+		linkify: false,
+	};
+
+	let markdownLib = markdownIt(options);
+	eleventyConfig.setLibrary("md", markdownLib);
+
+	// input directory
+	return {
+		dir: {
+			input: "pages",
+		},
+	};
+}

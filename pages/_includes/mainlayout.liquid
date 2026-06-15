@@ -1,0 +1,82 @@
+---
+title: Trans Composers Project
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- General metadata -->
+        <title>{{ title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ description }}">
+        <link rel="canonical" href="https://transcomposersproject.com{{ page.url }}">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/media/favicon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/svg+xml" href="/media/favicon/favicon.svg">
+        <link rel="shortcut icon" href="/media/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png">
+        <meta name="apple-mobile-web-app-title" content="Trans Composers Project">
+        <link rel="manifest" href="/media/favicon/site.webmanifest">
+
+        <!-- OG, social meta properties -->
+        <meta property="og:url" content="https://transcomposersproject.com{{ page.url }}">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{ title }}">
+        <meta property="og:description" content="{{ description }}">
+        {%- if og_image %}
+            <meta property="og:image" content="https://transcomposersproject.com{{ og_image }}">
+            {%- if og_image_width %}
+                <meta property="og:image:width" content="{{ og_image_width }}">
+            {%- endif %}
+            {%- if og_image_height %}
+                <meta property="og:image:height" content="{{ og_image_height }}">
+            {%- endif %}
+            {%- if og_image_alt %}
+                <meta property="og:image:alt" content="{{ og_image_alt }}">
+            {%- endif %}
+        {%- else %}
+            <meta property="og:image" content="https://transcomposersproject.com/media/og_image.jpg">
+            <meta property="og:image:type" content="image/jpeg">
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="630">
+            <meta
+                property="og:image:alt"
+                content=""
+            >
+        {%- endif %}
+
+        <!-- My styles -->
+        <link rel="stylesheet" type="text/css" href="/styles/global.css">
+        <script defer src="/styles/menus.js"></script>
+
+
+        <!-- rel="me" verification -->
+        <link rel="me" href="https://github.com/trans-composers-project">
+    </head>
+    <body>
+        <a class="skip-link" href="#content">Skip to content</a>
+        <!-- includes footer - makes it fill the page -->
+        <div class="wrapper">
+            <!-- navigation menu -->
+            <header>
+                <nav>
+				</nav>
+            </header>
+
+            <main role="main" id="content">
+                {{ content }}
+            </main>
+
+            <!-- footer -->
+            <footer>
+                <div id="social-icons">
+					<p>
+						Site design &copy; Reilly Spitzfaden {{ 'now' | date: '%Y' }}
+					</p>
+				</div>
+            </footer>
+            <!-- close "wrapper" -->
+        </div>
+    </body>
+</html>
