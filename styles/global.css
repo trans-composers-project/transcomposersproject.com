@@ -1,0 +1,77 @@
+:root {
+	--bg-light: hsl(320, 3%, 95%);
+	--fg-dark: hsl(320, 6%, 10%);
+
+	/* size variables */
+	--global-margin: 16px;
+	--main-width: 50rem;
+	--article-width: 45rem;
+	--p-line-height: 1.75;
+
+	--body-font: "Helvetica", sans-serif;
+	--body-font-weight: 400;
+
+	font-family: var(--body-font);
+	font-weight: var(--body-font-weight);
+}
+
+/* ######## colors, sizes ######## */
+body {
+	background-color: var(--bg-light);
+	color: var(--fg-dark);
+}
+
+/* #### sticky footer #### */
+html,
+body {
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 100%;
+
+	/* fallback height */
+	min-height: 100vh;
+	/* new small viewport height for modern browsers */
+	min-height: 100svh;
+}
+
+/* #### page sections #### */
+
+main {
+	margin-left: var(--global-margin);
+	margin-right: var(--global-margin);
+}
+
+header {
+	background-color: var(--bg-light);
+	margin-top: 8px;
+	margin-left: var(--global-margin);
+	margin-right: var(--global-margin);
+	padding-bottom: 8px;
+}
+
+footer {
+	margin-left: var(--global-margin);
+	margin-right: var(--global-margin);
+	padding-bottom: 16px;
+}
+
+/* #### individual elements #### */
+
+.skip-link {
+	/* referenced how TC does it; added &:not(:focus), removed !important; check if anyone can see it on first load */
+	&:not(:focus) {
+		height: 0px;
+		width: 0px;
+		margin: -1px;
+		padding: 0;
+		border: 0;
+		overflow: hidden;
+		position: absolute;
+		word-wrap: normal;
+	}
+}
