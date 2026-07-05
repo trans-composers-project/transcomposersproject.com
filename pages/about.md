@@ -22,7 +22,7 @@ TCP is excited to team up with [Wildflower Composers](https://wildflowercomposer
 
 Our projects this year include:
 
-### The Trans Composers Concert Series
+### Trans Composers Concert Series
 
 Partnering with top new music performers across the United States, the TCP will present and record a series of 4-6 concerts dedicated to the works of student-stage transgender composers collected through a national call for scores during the 2026-27 concert season. For more details, check back soon or subscribe to [our newsletter](). You can also subscribe to [announcements about future Calls for Scores]().
 
@@ -30,11 +30,7 @@ Partnering with top new music performers across the United States, the TCP will 
 
 The TCP will organize a virtual gathering for trans composers at all career stages to connect and discuss our experience in the field of music composition. The purpose of the gathering is both professional networking and community building. If you are a trans composer interested in attending, you can [subscribe to updates about the program]().
 
-</article>
-
-<article>
-
-<h2 class="section-header">Community Fundraiser</h2>
+### Community Fundraiser
 
 The TCP will launch a crowdfunding campaign to support our inaugural season, helping make our concerts and community programming possible. Donations will directly fund our performer, venue, and recording costs, as well as other essential expenses, allowing us to create meaningful opportunities for transgender composers across the United States. As a 100% volunteer-run organization, the TCP relies on community support to bring our programming to life.
 
@@ -64,7 +60,7 @@ Social Media and Outreach Coordinator
 
 Ember Shilts (she/they)
 Secretary
-NYC concert organizer
+NYC Concert Organizer
 [www.shiltscomposition.com](https://www.shiltscomposition.com/)
 
 Amelia Brey (she/they)
