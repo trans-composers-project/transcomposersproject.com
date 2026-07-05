@@ -1,18 +1,47 @@
 :root {
 	--bg-light: hsl(320, 3%, 95%);
 	--fg-dark: hsl(320, 6%, 10%);
+	--accent-gradient-bg: linear-gradient(to right, #eb79c5, #fff, #6a81f0);
 
 	/* size variables */
 	--global-margin: 16px;
 	--main-width: 50rem;
 	--article-width: 45rem;
 	--p-line-height: 1.75;
+	--section-header-padding: 6px;
+	--inside-gradient-line-margin: 12px;
 
-	--body-font: "Helvetica", sans-serif;
+	--header-footer-border-thickness: 3px;
+
+	--body-font: "Tahoe", sans-serif;
 	--body-font-weight: 400;
 
 	font-family: var(--body-font);
 	font-weight: var(--body-font-weight);
+}
+
+@media screen and (min-width: 768px) {
+	:root {
+		--global-margin: 7%;
+	}
+
+	header {
+		margin-top: 32px;
+	}
+}
+@media screen and (min-width: 940px) {
+	:root {
+		--global-margin: 12%;
+	}
+
+	header {
+		margin-top: 40px;
+	}
+}
+@media screen and (min-width: 1325px) {
+	:root {
+		--global-margin: 13%;
+	}
 }
 
 /* ######## colors, sizes ######## */
@@ -51,13 +80,48 @@ header {
 	margin-top: 8px;
 	margin-left: var(--global-margin);
 	margin-right: var(--global-margin);
-	padding-bottom: 8px;
+	padding-bottom: 16px;
+	/* border-bottom: 3px solid var(--accent-gradient); */
+
+	& #banner-heading {
+		& a,
+		a:hover,
+		a:focus,
+		a:active {
+			color: inherit !important;
+			text-decoration: none;
+		}
+	}
+	& .gradient-line {
+		margin-top: var(--inside-gradient-line-margin);
+	}
 }
 
 footer {
 	margin-left: var(--global-margin);
 	margin-right: var(--global-margin);
 	padding-bottom: 16px;
+	& .gradient-line {
+		margin-bottom: var(--inside-gradient-line-margin);
+	}
+}
+
+article,
+section {
+	margin: 0 0 48px;
+}
+.sectionDescription {
+	margin-bottom: 48px;
+}
+
+@media screen and (min-width: 660px) {
+	article,
+	section {
+		margin: 0 0 64px;
+	}
+	/* .sectionDescription {
+        margin-bottom: 64px;
+    } */
 }
 
 /* #### individual elements #### */
@@ -74,4 +138,15 @@ footer {
 		position: absolute;
 		word-wrap: normal;
 	}
+}
+
+.gradient-line {
+	max-width: 100%;
+	padding-bottom: var(--header-footer-border-thickness);
+	position: relative;
+	background: var(--accent-gradient-bg);
+}
+
+nav a {
+	margin-right: 12px;
 }

@@ -2,6 +2,8 @@
 title: Projects | Trans Composers Project
 ---
 
+<link rel="stylesheet" type="text/css" href="/styles/onecolumn.css">
+
 <article>
 
 <h2 class="section-header">Project Status</h2>
@@ -24,10 +26,12 @@ Information forthcoming.
 
 <h2 class="section-header">Timeline</h2>
 
-Call for Scores Opens: ca. Sept. 15th
+Call for Scores Opens: ca. Sept. 15th, 2026
 
-Review of scores complete by: Oct. 1st
+Review of scores complete by: Oct. 1st, 2026
 
-Virtual Trans Music Gathering: October
+Trans Music Gathering: October (virtual)
+
+Chicago Concert: Spectrum Ensemble (March 2027)
 
 </article>
