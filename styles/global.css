@@ -1,6 +1,6 @@
 :root {
-	--bg-light: hsl(230, 3%, 97%);
-	--fg-dark: hsl(230, 4%, 10%);
+	--bg-light: hsl(230, 3%, 98%);
+	--fg-dark: hsl(230, 3%, 18%);
 	--accent-gradient-bg: linear-gradient(to right, #eb79c5, #fff, #6a81f0);
 
 	/* size variables */
