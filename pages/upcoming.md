@@ -26,7 +26,7 @@ Information forthcoming.
 
 <h2 class="section-header">Timeline</h2>
 
-Call for Scores Opens: ca. Sept. 15th, 2026
+Call for Scores opens: ca. Sept. 15th, 2026
 
 Review of scores complete by: Oct. 1st, 2026
 
