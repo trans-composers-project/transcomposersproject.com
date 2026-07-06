@@ -63,10 +63,6 @@ Secretary
 NYC Concert Organizer
 [www.shiltscomposition.com](https://www.shiltscomposition.com/)
 
-Amelia Brey (she/they)
-Adjudication Coordinator
-[ameliabrey.wordpress.com](https://ameliabrey.wordpress.com/)
-
 Jaz Thomasian (they/them)
 [jmthomasian.github.io](https://jmthomasian.github.io/)
 
