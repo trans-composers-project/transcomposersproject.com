@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"); */
+
 :root {
 	--bg-light: hsl(230, 5%, 99%);
 	--fg-dark: hsl(230, 3%, 18%);
@@ -20,7 +23,8 @@
 
 	--header-footer-border-thickness: 3px;
 
-	--body-font: "Tahoe", sans-serif;
+	--body-font: "Atkinson Hyperlegible", "Helvetica", sans-serif;
+	/* --body-font: "Open Sans", "Helvetica", sans-serif; */
 	--body-font-weight: 400;
 
 	font-family: var(--body-font);
@@ -90,6 +94,10 @@ header {
 	padding-bottom: 16px;
 	/* border-bottom: 3px solid var(--accent-gradient); */
 
+	h1 {
+		/* font-family: "Roboto Serif"; */
+	}
+
 	& #banner-heading {
 		& a,
 		a:hover,
@@ -102,6 +110,7 @@ header {
 
 	& nav {
 		margin-bottom: var(--inside-gradient-line-margin);
+		font-size: 1.15em;
 	}
 }
 

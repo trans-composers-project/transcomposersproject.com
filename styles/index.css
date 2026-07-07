@@ -1,0 +1,8 @@
+#about-p {
+	font-size: 1.2em;
+}
+#tcp-name {
+	background: var(--accent-gradient-bg);
+	background-clip: text;
+	color: transparent;
+}
