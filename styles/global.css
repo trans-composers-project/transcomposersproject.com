@@ -9,7 +9,7 @@
 	--article-width: 45rem;
 	--p-line-height: 1.75;
 	--section-header-padding: 6px;
-	--inside-gradient-line-margin: 12px;
+	--inside-gradient-line-margin: 14px;
 
 	--header-footer-border-thickness: 3px;
 
@@ -92,8 +92,9 @@ header {
 			text-decoration: none;
 		}
 	}
-	& .gradient-line {
-		margin-top: var(--inside-gradient-line-margin);
+
+	& nav {
+		margin-bottom: var(--inside-gradient-line-margin);
 	}
 }
 
@@ -101,8 +102,15 @@ footer {
 	margin-left: var(--global-margin);
 	margin-right: var(--global-margin);
 	padding-bottom: 16px;
-	& .gradient-line {
-		margin-bottom: var(--inside-gradient-line-margin);
+
+	& #social-icons {
+		margin-top: var(--inside-gradient-line-margin);
+		margin-bottom: 24px;
+		display: inline-flex;
+		flex-flow: row wrap;
+	}
+	& #social-icons a:not(:last-child) {
+		padding-right: 12px;
 	}
 }
 
