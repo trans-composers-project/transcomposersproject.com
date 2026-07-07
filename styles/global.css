@@ -8,6 +8,7 @@
 :root {
 	--bg-light: hsl(230, 5%, 99%);
 	--fg-dark: hsl(230, 3%, 18%);
+	--link-color: hsl(230, 100%, 45%);
 	--accent-gradient-bg: linear-gradient(
 		to right,
 		#eb79c5,
@@ -32,6 +33,7 @@
 	--body-font-weight: 400;
 
 	font-family: var(--body-font);
+	font-size: 17px;
 	font-weight: var(--body-font-weight);
 }
 
@@ -63,6 +65,15 @@
 body {
 	background-color: var(--bg-light);
 	color: var(--fg-dark);
+}
+
+a {
+	& a:hover,
+	a:focus,
+	a:active,
+	:not(a:visited) {
+		color: var(--link-color);
+	}
 }
 
 /* #### sticky footer #### */
@@ -99,7 +110,8 @@ header {
 	/* border-bottom: 3px solid var(--accent-gradient); */
 
 	h1 {
-		/* font-family: "Roboto Serif"; */
+		font-size: 1.75em;
+		margin-bottom: 14px;
 	}
 
 	& #banner-heading {
@@ -114,7 +126,7 @@ header {
 
 	& nav {
 		margin-bottom: var(--inside-gradient-line-margin);
-		font-size: 1.15em;
+		font-size: 1.05em;
 	}
 }
 
@@ -125,7 +137,7 @@ footer {
 
 	& #social-icons {
 		margin-top: var(--inside-gradient-line-margin);
-		margin-bottom: 24px;
+		/* margin-bottom: 24px; */
 		display: inline-flex;
 		flex-flow: row wrap;
 	}
