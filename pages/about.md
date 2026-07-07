@@ -14,7 +14,7 @@ The Trans Composers Project (TCP) celebrates and uplifts trangender, nonbinary, 
 
 <article>
 
-<h2 class="section-header">Full Project Description</h2>
+<h2 id="full-project-description" class="section-header">Full Project Description</h2>
 
 The Trans Composers Project (TCP) is dedicated to celebrating transgender composers in the United States through performances and recordings of their works by world-class musicians, as well as gatherings that connect trans musicians to other queer and allied musicians.
 
@@ -38,7 +38,7 @@ The TCP will launch a crowdfunding campaign to support our inaugural season, hel
 
 <article>
 
-<h2 class="section-header">TCP Team</h2>
+<h2 id="tcp-team" class="section-header">TCP Team</h2>
 
 Cerulean S. Payne-Passmore (they/them)
 Founder and Project Director

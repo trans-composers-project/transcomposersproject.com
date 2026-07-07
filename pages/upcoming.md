@@ -6,7 +6,7 @@ title: Projects | Trans Composers Project
 
 <article>
 
-<h2 class="section-header">Project Status</h2>
+<h2 id="project-status" class="section-header">Project Status</h2>
 
 ### Call for Scores
 
@@ -24,7 +24,7 @@ Information forthcoming.
 
 <article>
 
-<h2 class="section-header">Timeline</h2>
+<h2 id="timeline" class="section-header">Timeline</h2>
 
 Call for Scores opens: ca. Sept. 15th, 2026
 

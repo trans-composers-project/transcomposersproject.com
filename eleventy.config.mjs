@@ -1,4 +1,5 @@
 import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
 
 export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("documents");
@@ -12,7 +13,10 @@ export default async function (eleventyConfig) {
 		linkify: false,
 	};
 
-	let markdownLib = markdownIt(options);
+	let markdownLib = markdownIt(options).use(markdownItAnchor, {
+		tabIndex: false,
+	});
+
 	eleventyConfig.setLibrary("md", markdownLib);
 
 	// input directory
