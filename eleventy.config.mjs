@@ -4,6 +4,7 @@ import markdownItAnchor from "markdown-it-anchor";
 export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("documents");
 	eleventyConfig.addPassthroughCopy("media");
+	eleventyConfig.addPassthroughCopy("scripts");
 	eleventyConfig.addPassthroughCopy("styles");
 
 	// plugins: markdown-it

@@ -8,7 +8,7 @@ description: The Trans Composers Project (TCP) seeks to celebrate trangender com
         <!-- General metadata -->
         <title>{{ title }}</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ description }}">
         <link rel="canonical" href="https://transcomposersproject.com{{ page.url }}">
 
@@ -49,8 +49,7 @@ description: The Trans Composers Project (TCP) seeks to celebrate trangender com
 
         <!-- My styles -->
         <link rel="stylesheet" type="text/css" href="/styles/global.css">
-        <!-- <script defer src="/styles/menus.js"></script> -->
-
+        <script defer type="text/javascript" src="/scripts/global.js"></script>
 
         <!-- rel="me" verification -->
         <link rel="me" href="https://github.com/trans-composers-project">
@@ -61,11 +60,16 @@ description: The Trans Composers Project (TCP) seeks to celebrate trangender com
         <div class="wrapper">
             <!-- navigation menu -->
             <header>
-				<h1 id="banner-heading"><a href="/">Trans Composers Project</a></h1>
-                <nav>
-					<a href="/">Home</a>
-					<a href="/about">About</a>
-					<a href="/upcoming">Upcoming</a>
+				<div id="header-row">
+					<h1 id="banner-heading"><a href="/">Trans Composers Project</a></h1>
+					<button id="hamburger">
+						<img src="/media/ui/hamburger-menu.svg" alt="3-line dropdown menu icon" width="28" height="28">
+					</button>
+				</div>
+                <nav id="main-menu">
+					<a class="menu-item" href="/">Home</a>
+					<a class="menu-item" href="/about">About</a>
+					<a class="menu-item" href="/upcoming">Upcoming</a>
 				</nav>
 				<div class="gradient-line"></div>
             </header>
