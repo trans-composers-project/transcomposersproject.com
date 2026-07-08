@@ -20,7 +20,9 @@ The Trans Composers Project (TCP) is dedicated to celebrating transgender compos
 
 <p id="our-partners">
 
-TCP is excited to team up with [Wildflower Composers](https://wildflowercomposers.org/), who are accepting tax-deductible donations on our behalf to help make this project possible, and with [Queer Music Midwest](https://queermusicmidwest.org/).
+TCP is excited to team up with [Queer Music Midwest](https://queermusicmidwest.org/).
+
+{%- comment %} with [Wildflower Composers](https://wildflowercomposers.org/), who are accepting tax-deductible donations on our behalf to help make this project possible, and {%- endcomment %}
 
 </p>
 
