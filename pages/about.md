@@ -18,7 +18,11 @@ The Trans Composers Project (TCP) celebrates and uplifts trangender, nonbinary, 
 
 The Trans Composers Project (TCP) is dedicated to celebrating transgender composers in the United States through performances and recordings of their works by world-class musicians, as well as gatherings that connect trans musicians to other queer and allied musicians.
 
+<p id="our-partners">
+
 TCP is excited to team up with [Wildflower Composers](https://wildflowercomposers.org/), who are accepting tax-deductible donations on our behalf to help make this project possible, and with [Queer Music Midwest](https://queermusicmidwest.org/).
+
+</p>
 
 Our projects this year include:
 
