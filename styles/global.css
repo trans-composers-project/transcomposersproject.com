@@ -228,7 +228,7 @@ nav a {
 	overflow: hidden;
 	background-repeat: no-repeat;
 	padding: 0;
-	margin: 0;
+	margin: 3px 0 0 0;
 	& img {
 		vertical-align: middle;
 	}
