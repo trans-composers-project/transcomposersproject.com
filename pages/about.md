@@ -51,7 +51,7 @@ Founder and Project Director
 Philadelphia Concert Organizer
 [ceruleancomposes.com](https://ceruleancomposes.com/)
 
-M Joseph Willette (they/them)
+M Joseph Willette
 Director of Programming
 Chicago Concert Organizer
 [mjosephwillette.com](https://mjosephwillette.com)

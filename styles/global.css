@@ -10,11 +10,11 @@
 	--link-color: hsl(230, 100%, 45%);
 	--accent-gradient-bg: linear-gradient(
 		to right,
-		#eb79c5,
 		/* 0 20%, */
 		/* var(--bg-light), */
-		#6a81f0
+		hsl(230 81.7% 88%),
 		/* 80% 100% */
+		hsl(320 74% 88%)
 	);
 
 	/* size variables */
@@ -43,7 +43,7 @@
 	}
 
 	header {
-		margin-top: 32px;
+		padding-top: 32px;
 	}
 }
 @media screen and (min-width: 940px) {
@@ -52,7 +52,7 @@
 	}
 
 	header {
-		margin-top: 40px;
+		padding-top: 40px;
 	}
 }
 @media screen and (min-width: 1325px) {
@@ -67,6 +67,9 @@ body {
 	color: var(--fg-dark);
 }
 
+header {
+	background: var(--accent-gradient-bg);
+}
 a {
 	& a:hover,
 	a:focus,
@@ -103,9 +106,9 @@ main {
 
 header {
 	background-color: var(--bg-light);
-	margin-top: 8px;
-	margin-left: var(--global-margin);
-	margin-right: var(--global-margin);
+	padding-top: 8px;
+	padding-left: var(--global-margin);
+	padding-right: var(--global-margin);
 	padding-bottom: 16px;
 	/* border-bottom: 3px solid var(--accent-gradient); */
 
@@ -137,8 +140,9 @@ header {
 }
 
 footer {
-	margin-left: var(--global-margin);
-	margin-right: var(--global-margin);
+	/* extend line to edge? */
+	padding-left: var(--global-margin);
+	padding-right: var(--global-margin);
 	padding-bottom: 16px;
 
 	& #social-icons {
