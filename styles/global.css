@@ -10,11 +10,10 @@
 	--link-color: hsl(230, 100%, 45%);
 	--accent-gradient-bg: linear-gradient(
 		to right,
-		/* 0 20%, */
-		/* var(--bg-light), */
-		hsl(230 81.7% 88%),
-		/* 80% 100% */
-		hsl(320 74% 88%)
+		#eb79c5,
+		#6a81f0
+		/* hsl(230 81.7% 88%), */
+		/* hsl(320 74% 88%) */
 	);
 
 	/* size variables */
@@ -68,7 +67,7 @@ body {
 }
 
 header {
-	background: var(--accent-gradient-bg);
+	/* background: var(--accent-gradient-bg); */
 }
 a {
 	& a:hover,
