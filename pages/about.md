@@ -30,11 +30,11 @@ Our projects this year include:
 
 ### Trans Composers Concert Series
 
-Partnering with top new music performers across the United States, the TCP will present and record a series of 4-6 concerts dedicated to the works of student-stage transgender composers collected through a national call for scores during the 2026-27 concert season. For more details, check back soon or subscribe to [our newsletter](). You can also subscribe to [announcements about future Calls for Scores]().
+Partnering with top new music performers across the United States, the TCP will present and record a series of 4-6 concerts dedicated to the works of student-stage transgender composers collected through a national call for scores during the 2026-27 concert season. For more details (including announcements about future Calls for Scores) check back soon or [subscribe to our mailing list below](#mailing-list).
 
 ### Trans Composers Gathering
 
-The TCP will organize a virtual gathering for trans composers at all career stages to connect and discuss our experience in the field of music composition. The purpose of the gathering is both professional networking and community building. If you are a trans composer interested in attending, you can [subscribe to updates about the program]().
+The TCP will organize a virtual gathering for trans composers at all career stages to connect and discuss our experience in the field of music composition. The purpose of the gathering is both professional networking and community building. If you are a trans composer interested in attending, you can [subscribe to the mailing list for updates about the program](#mailing-list).
 
 ### Community Fundraiser
 
@@ -44,25 +44,25 @@ The TCP will launch a crowdfunding campaign to support our inaugural season, hel
 
 <article>
 
+<h2 class="section-header" id="mailing-list">Mailing List</h2>
+
+{% include "partials/mailing-list.liquid" %}
+
+</article>
+
+<article>
+
 <h2 id="tcp-team" class="section-header">TCP Team</h2>
 
 Cerulean S. Payne-Passmore (they/them)
-Founder and Project Director
+Board Chair, Founder, and Project Director
 Philadelphia Concert Organizer
 [ceruleancomposes.com](https://ceruleancomposes.com/)
 
 M Joseph Willette
-Director of Programming
+Board Vice-Chair and Director of Programming
 Chicago Concert Organizer
 [mjosephwillette.com](https://mjosephwillette.com)
-
-Reilly Spitzfaden (they/them)
-Website Manager
-[reillyspitzfaden.com](https://reillyspitzfaden.com/)
-
-Indigo Knecht (they/them)
-Social Media and Outreach Coordinator
-[indigoknecht.com](https://indigoknecht.com/)
 
 Ember Shilts (she/they)
 Secretary
@@ -70,6 +70,15 @@ NYC Concert Organizer
 [www.shiltscomposition.com](https://www.shiltscomposition.com/)
 
 Jaz Thomasian (they/them)
+Treasurer
 [jmthomasian.github.io](https://jmthomasian.github.io/)
+
+Indigo Knecht (they/them)
+Social Media and Outreach Coordinator
+[indigoknecht.com](https://indigoknecht.com/)
+
+Reilly Spitzfaden (they/them)
+Website Manager
+[reillyspitzfaden.com](https://reillyspitzfaden.com/)
 
 </article>

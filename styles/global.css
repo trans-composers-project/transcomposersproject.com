@@ -7,6 +7,7 @@
 :root {
 	--bg-light: hsl(230, 5%, 99%);
 	--fg-dark: hsl(230, 3%, 18%);
+	--fg-gray: hsl(230, 3%, 60%);
 	--link-color: hsl(230, 100%, 45%);
 	--accent-gradient-bg: linear-gradient(
 		to right,
@@ -247,4 +248,27 @@ nav a {
 	& .menu-item {
 		margin: 0 0 12px 0;
 	}
+}
+
+/* form */
+legend {
+	padding-left: unset;
+	padding-bottom: 12px;
+}
+fieldset {
+	padding: unset;
+	border: unset;
+}
+.textinput {
+	border: 1px solid var(--fg-gray);
+	border-radius: 3px;
+	padding: 3px;
+}
+.submit {
+	margin-left: 4px;
+	border: unset;
+	color: var(--bg-light);
+	background: var(--accent-gradient-bg);
+	padding: 4px 8px;
+	border-radius: 3px;
 }
